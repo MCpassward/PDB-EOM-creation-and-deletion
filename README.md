@@ -11,7 +11,7 @@
 ![pluggable deletion](https://github.com/user-attachments/assets/d6d8da29-cab6-42e4-bd67-15659e828a23)
 
 ##MY ORACLE ENTERPRISE MANAGEMENT DASHBOARD
-       
+![enyerprise dashboard1](https://github.com/user-attachments/assets/9a458633-4b8b-44f3-9aeb-f243513ed8f0)       
        
 ![enterprise dashboard2](https://github.com/user-attachments/assets/ee57dac7-2ae4-4d71-8b2d-553a223dd3d3)
 
