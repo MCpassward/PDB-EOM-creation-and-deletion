@@ -12,6 +12,7 @@
 
 ##MY ORACLE ENTERPRISE MANAGEMENT DASHBOARD
        
-       ![enyerprise dashboard1](https://github.com/user-attachments/assets/732f318e-6b05-49c7-899b-e070e0f77549)
-       ![enterprise dashboard2](https://github.com/user-attachments/assets/ee57dac7-2ae4-4d71-8b2d-553a223dd3d3)
+![enyerprise dashboard1](https://github.com/user-attachments/assets/732f318e-6b05-49c7-899b-e070e0f77549)
+       
+![enterprise dashboard2](https://github.com/user-attachments/assets/ee57dac7-2ae4-4d71-8b2d-553a223dd3d3)
 
