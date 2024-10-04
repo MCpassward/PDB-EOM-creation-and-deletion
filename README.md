@@ -45,8 +45,8 @@ Version 21.3.0.0.0
 USER is "SYS"
 
     SQL> SELECT instance_name FROM v$instance;
--- Retrieves the current instance name
-INSTANCE_NAME
+ Retrieves the current instance name
+ INSTANCE_NAME
 ----------------
 xe
 
