@@ -1,4 +1,7 @@
-#PLUGGABLE DATABASE CREATION & DELETION
+# [ORACLE DATABASE MANAGEMENT SQL COMMANDS FOR PLUGGABLE DATABASE OPERATIONS](https://example.com)
+
+This document provides a detailed step-by-step demonstration of using SQL commands in Oracle 21c Express Edition to manage pluggable databases (PDBs)...
+
 
 
          PDB 1 creation
