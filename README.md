@@ -50,9 +50,7 @@ USER is "SYS"
 ----------------
 xe
 
-    SQL> show ppdbs;
--- Invalid SHOW option (typo error or wrong command)
-SP2-0158: unknown SHOW option "ppdbs"
+
 
     SQL> show pdbs;
 -- Shows pluggable databases (PDBs) and their status (open mode and restriction status)
