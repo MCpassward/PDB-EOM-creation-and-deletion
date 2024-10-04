@@ -16,7 +16,7 @@
 ![enyerprise dashboard1](https://github.com/user-attachments/assets/bec7ef50-f84b-48c9-b50d-ffb9082f52b3)
 
 
-###[This document provides a detailed step-by-step demonstration of using SQL commands in Oracle 21c Express Edition to manage pluggable databases (PDBs)...]
+###[This document provides a detailed step-by-step demonstration of using SQL commands in Oracle 21c Express Edition to manage pluggable databases (PDBs)...](https://example.com)
 
 
 -- Connect to the Oracle database as SYSDBA (superuser privileges)
