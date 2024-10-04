@@ -19,8 +19,7 @@
 #####                        FOR MORE QUERIES
 ## **Oracle 21c Express Edition: Step-by-Step Guide for Managing Pluggable Databases (PDBs)**
 
-
-
+```SQL
 -- Connect to the Oracle database as SYSDBA (superuser privileges)
 SQL*Plus: Release 21.0.0.0.0 - Production on Thu Oct 3 13:03:36 2024
 Version 21.3.0.0.0
@@ -168,3 +167,5 @@ Pluggable database altered.
 -- Drops the pluggable database 'ch_to_delete_pdb' from the container
 
 Pluggable database dropped.
+```
+
