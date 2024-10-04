@@ -16,13 +16,20 @@
 ![enyerprise dashboard1](https://github.com/user-attachments/assets/bec7ef50-f84b-48c9-b50d-ffb9082f52b3)
 
 
-This document provides a detailed step-by-step demonstration of using SQL commands in Oracle 21c Express Edition to manage pluggable databases (PDBs)...
-Microsoft Windows [Version 10.0.19045.4894]
-(c) Microsoft Corporation. All rights reserved.
+###[This document provides a detailed step-by-step demonstration of using SQL commands in Oracle 21c Express Edition to manage pluggable databases (PDBs)...]
 
-C:\Users\User>sqlplus sys as SYSDBA
 
---- Connect to the Oracle database as SYSDBA (superuser privileges)
+-- Connect to the Oracle database as SYSDBA (superuser privileges)
+SQL*Plus: Release 21.0.0.0.0 - Production on Thu Oct 3 13:03:36 2024
+Version 21.3.0.0.0
+
+Enter password:
+
+Connected to:
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+
+-- Connect to the Oracle database as SYSDBA (superuser privileges)
 SQL*Plus: Release 21.0.0.0.0 - Production on Thu Oct 3 13:03:36 2024
 Version 21.3.0.0.0
 
@@ -54,19 +61,10 @@ SQL> show pdbs;
          2 PDB$SEED                       READ ONLY  NO
          3 XEPDB1                         READ WRITE NO
 
-
-
-SQL> SHOW PDBS;
--- Repeats the command to show pluggable databases (PDBs)
-
-    CON_ID CON_NAME                       OPEN MODE  RESTRICTED
----------- ------------------------------ ---------- ----------
-         2 PDB$SEED                       READ ONLY  NO
-         3 XEPDB1                         READ WRITE NO
-
 SQL> create pluggable database plsql_class2024db
   2  admin user pdbadmin identified by admin
-  3  file_name_convert=('C:\APP\USER\PRODUCT\21C\ORADATA\XE\pdbseed','C:\APP\USER\PRODUCT\21C\ORADATA\XE\plsql_class2024');
+  3  file_name_convert=('C:\APP\USER\PRODUCT\21C\ORADATA\XE\pdbseed',
+                        'C:\APP\USER\PRODUCT\21C\ORADATA\XE\plsql_class2024');
 -- Creates a new pluggable database (PDB) named 'plsql_class2024db' with a new admin user and specific file name conversion
 
 Pluggable database created.
@@ -164,7 +162,8 @@ SQL> alter pluggable database ch_to_delete_pdb close immediate;
 
 Pluggable database altered.
 
-SQL> alter pluggable database ch_to_delete_pdb unplug into 'C:\app\User\product\21c\admin\XE\dpdump\ch_to_delete_pdb.xml';
+SQL> alter pluggable database ch_to_delete_pdb unplug into 
+'C:\app\User\product\21c\admin\XE\dpdump\ch_to_delete_pdb.xml';
 -- Unplugs the pluggable database 'ch_to_delete_pdb' and exports its metadata to the specified XML file
 
 Pluggable database altered.
