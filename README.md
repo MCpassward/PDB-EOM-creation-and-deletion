@@ -68,11 +68,7 @@ CON_ID CON_NAME                       OPEN MODE  RESTRICTED
 
 Pluggable database created.
 
-    SQL> alter session set container =plsql_class2024;
--- Error caused because the PDB name is incorrect (typo). Correct name is `plsql_class2024db`
-ERROR:
-ORA-65011: Pluggable database PLSQL_CLASS2024 does not exist.
-
+ 
     SQL> alter session set container =plsql_class2024db;
 -- Corrects the command by setting the session to the correct container (PDB)
 
