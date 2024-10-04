@@ -16,7 +16,7 @@
 ![enyerprise dashboard1](https://github.com/user-attachments/assets/bec7ef50-f84b-48c9-b50d-ffb9082f52b3)
 
 
-##### FOR MORE INFO:
+#####                        FOR MORE QUERIES
 ## **Oracle 21c Express Edition: Step-by-Step Guide for Managing Pluggable Databases (PDBs)**
 
 
